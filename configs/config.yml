@@ -3,9 +3,6 @@ Server:
   HttpPort: 8088
   ReadTimeOut: 60
   WriteTimeOut: 60
-  UrlPathPrefix: api
-  RsaPublicKey: go-web-mini-pub.pem
-  RsaPrivateKey: go-web-mini-priv.pem
 App:
   DefaultPageSize: 10
   MaxPageSize: 100

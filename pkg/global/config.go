@@ -17,13 +17,10 @@ type config struct {
 }
 
 type serverConfig struct {
-	RunModel      string
-	HttpPort      string
-	ReadTimeOut   time.Duration
-	WriteTimeOut  time.Duration
-	UrlPathPrefix string
-	RsaPublicKey  string
-	RsaPrivateKey string
+	RunModel     string
+	HttpPort     string
+	ReadTimeOut  time.Duration
+	WriteTimeOut time.Duration
 }
 
 type appConfig struct {
