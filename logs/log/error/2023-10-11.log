@@ -1,0 +1,1 @@
+{"level":"fatal","time":"2023-10-11 16:08:27","file":"router/router.go:32","msg":"new db is error","error":"dial tcp 192.168.1.8:3306: connect: operation timed out"}

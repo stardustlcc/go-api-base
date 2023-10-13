@@ -1,0 +1,31 @@
+Server:
+  RunMode: debug
+  HttpPort: 8088
+  ReadTimeOut: 60
+  WriteTimeOut: 60
+  UrlPathPrefix: api
+  RsaPublicKey: go-web-mini-pub.pem
+  RsaPrivateKey: go-web-mini-priv.pem
+App:
+  DefaultPageSize: 10
+  MaxPageSize: 100
+Database:
+  DBType: mysql
+  UserName: root
+  PassWord: 123456
+  Host: 10.0.5.229:3306
+  DBName: study_service
+  Charset: utf8
+  ParseTime: True
+  TablePrefix: ""
+  MaxIdleConns: 10
+  MaxOpenConns: 30
+Logs:
+  Path: "logs/log"
+Redis:
+  Host: 10.0.5.229:6379
+  PassWord: 123456
+  DB: 0
+  PoolSize: 10
+  MaxRetries: 3
+  MinIdleConns: 5
